@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <img src="/img/netflix-logo-2-1.png" alt="Logo Netflix">
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -38,6 +43,55 @@
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="Capa da série Vikings">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="Capa O gambito da rainha">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="Capa Seal Team">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="capa Game of thrones">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="capa Fear The Walking Dead">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="capa El Senor del Cielos">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="capa Os Simpsons">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="capa Sobrenatural">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg" alt="capa La Casa de Papel">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="capa Station 19">
+            </div>
+            
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/8dd58c0c43.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
